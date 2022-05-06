@@ -1,0 +1,61 @@
+/* base */
+@import 'base/reset';
+@import 'base/variables';
+@import 'base/mixins';
+
+/* blocks */
+@import 'blocks/customers';
+
+/* settings */
+body {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+	font-size: 18px;
+    line-height: 150%;
+    color: $text-color;
+}
+
+.container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+h1, h2, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.title {
+    font-size: 36px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: $main-color;
+}
+
+/* .text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: $text-color;
+} */
+
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    .title {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        font-size: 14px;
+    }
+    .title {
+        font-size: 26px;
+    }
+}
+
