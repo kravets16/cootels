@@ -1,0 +1,16 @@
+.btn {
+    padding: 16px 32px;
+    background: #0E1734;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    transition: all .3s ease;
+    &:visited {
+        color: #FFFFFF;
+    }
+    &:hover {
+        color: $text-color
+    }
+}
