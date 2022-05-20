@@ -4,10 +4,13 @@
 @import 'base/mixins';
 
 /* blocks */
+@import 'blocks/header';
 @import 'blocks/btn';
 @import 'blocks/cootage';
 @import 'blocks/benefits';
+@import 'blocks/rooms';
 @import 'blocks/customers';
+@import 'blocks/footer';
 
 /* settings */
 body {
@@ -23,6 +26,7 @@ body {
     max-width: 1230px;
     margin: 0 auto;
     padding: 0 15px;
+    /* background-color: aqua; */
 }
 h1, h2, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
