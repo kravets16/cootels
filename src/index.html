@@ -21,14 +21,14 @@
     <body>
         <header class="header">
             <div class="container">
-                <div class="header__navbar none">
+                <div class="header__navbar">
                     <a class="header__logo" href="#" >
                         <img class="header__logo-link" src="icons/Logo.svg" alt="logo" >
                     </a>
                     <nav class="header__nav">
                         <ul class="header__list">
                             <li class="header__list-item">
-                                <a href="#" class="header__list-link">Rooms</a>
+                                <a href="#rooms" class="header__list-link">Rooms</a>
                             </li>
                             <li class="header__list-item">
                                 <a href="#" class="header__list-link">Reservation</a>
@@ -41,6 +41,11 @@
                             </li>
                         </ul>
                     </nav>
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
                 </div>
                 <div class="header__wrapper">
                     <div class="header__descr">
@@ -63,7 +68,7 @@
             </div>
         </header>
         <main class="main">
-            <section class="cootage ">
+            <section class="cootage">
                 <div class="container">
                     <div class="cootage__wrapper">
                         
@@ -88,7 +93,7 @@
                     </div>
                 </div>
             </section>
-            <section class="benefits ">
+            <section class="benefits">
                 <div class="container">
                     <div class="benefits__wrapper">
                         <div class="benefits__descr">
@@ -114,7 +119,7 @@
                     </div>
                 </div>
             </section>
-            <section class="rooms ">
+            <section class="rooms none" id="rooms">
                 <div class="container">
                     <h2 class="rooms__title title">
                         Many Rooms to Choose
@@ -183,7 +188,7 @@
                     </div>
                 </div>
             </section>
-            <section class="customers none">
+            <section class="customers">
                 <div class="container">
                     <h2 class="customers__title title">
                         Hear From Our Happy Customers
@@ -252,8 +257,54 @@
                     </div>
                 </div>
             </section>
+            <section class="get">
+                <div class="container">
+                    <div class="get__wrapper">
+                        <div class="get__content">
+                            <h5 class="get__subtitle">
+                                Start your journey!
+                            </h5>
+                            <h2 class="get__title title">
+                                How to Get My Room?
+                            </h2>
+                            <div class="get__text">
+                                You can contact us by phone or email us. Easily tap the contact button below and it will take you to our contact point
+                            </div>
+                            <div class="get__row">
+                                <div class="get__btn">
+                                    <a href="#" class="btn">Contact us</a>
+                                </div>
+                                <a href="#" class="get__link">Explore more room</a>
+                            </div>
+                        </div>
+                        <ul class="get__accordion" id="accordion">
+                            <li class="get__accordion-item">
+                                <label for="first">1. Choose a room and date</label>
+                                <input type="radio" name="accordion" id="first" checked>
+                                <div class="get__accordion-text">
+                                    Contact us via phone or email, ask for availability of you choice of room. We might offer you something exciting.
+                                </div>
+                            </li>
+                            <li class="get__accordion-item">
+                                <label for="second">2. Check for room availability</label>
+                                <input type="radio" name="accordion" id="second">
+                                <div class="get__accordion-text">
+                                    Contact us via phone or email, ask for availability of you choice of room. We might offer you something exciting.
+                                </div>
+                            </li>
+                            <li class="get__accordion-item">
+                                <label for="third">3. Enjoy your room</label>
+                                <input type="radio" name="accordion" id="third">
+                                <div class="get__accordion-text">
+                                    Contact us via phone or email, ask for availability of you choice of room. We might offer you something exciting.
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
         </main>
-        <footer class="footer none">
+        <footer class="footer">
             <div class="container">
                 <div class="footer__wrapper">
                     <div class="footer__descr">
